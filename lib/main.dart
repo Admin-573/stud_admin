@@ -65,6 +65,7 @@ final _formkey = GlobalKey<FormState>();
 
               Padding(padding: const EdgeInsets.symmetric(horizontal: 36,vertical: 6),
               child: TextFormField(
+                obscureText: true,
                 keyboardType: TextInputType.visiblePassword,
                 decoration: const InputDecoration(
                   icon: Icon(Icons.lock_outline,size: 28,),
